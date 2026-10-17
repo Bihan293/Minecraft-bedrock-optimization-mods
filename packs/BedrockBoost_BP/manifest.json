@@ -1,0 +1,65 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "§bBedrockBoost §7BP",
+    "description": "§aПрогрузка чанков, помощь на элитрах,\n§aсканер лагов и очистка. Меню: /bb:menu",
+    "uuid": "9e8d5c90-2e75-4910-b12c-d8406b642dd6",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      100
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "6320aafc-c51d-46bb-b749-2bc70be880bc",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "12df553e-ddba-4c9c-84e1-c6efc2750ecf",
+      "entry": "scripts/main.js",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.1.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.0.0"
+    },
+    {
+      "uuid": "1ae5d9d1-84e9-4c7f-9d52-1dfd8d783195",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "BedrockBoost"
+    ],
+    "license": "MIT",
+    "url": "https://github.com/Bihan293/Minecraft-bedrock-optimization-mods"
+  }
+}
